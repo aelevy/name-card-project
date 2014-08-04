@@ -1,0 +1,32 @@
+header{
+ text-align:center;
+ background-color:teal;
+ margin:0 auto;
+ h1{
+  margin:0 auto;
+ }
+}
+body {
+ background-color:gray;
+ margin:0 auto;
+}
+.container {
+ display:block;
+ position:relative;
+ width:100%;
+}
+
+ .profiles{
+    display:inline-block;
+   /*  width:19%; */
+    position:relative;
+    padding:15px;
+     &:hover{
+      background-color:#E8CB35;
+     }
+   img{
+    width:250px;
+    height:250px;
+   }
+
+ }
